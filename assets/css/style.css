@@ -111,25 +111,9 @@ footer{
     height: 200px;
 }
 
-.ACU{
-    width: 250px;
+.portfolioImage{
+    width: 300px;
     height: auto;
-    float: left;
-    margin-right: 20px;
-}
-
-.FO76{
-    width: 250px;
-    height: auto;
-    float: left;
-    margin-right: 20px;
-    margin-top: 20px;
-}
-
-.NMS{
-    width: 250px;
-    height: auto;
-    float: left;
     margin-right: 20px;
 }
 
