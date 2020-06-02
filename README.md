@@ -1,4 +1,6 @@
-# wesaboo.github.io
-Github Pages
+# BootstrapPortfolio
+Portfolio utilizing bootstrap only, trying not to use any additional CSS
 
-No description as of yet 
+4/12/20
+-Created Repository
+-Created index, contact, and portfolio HTML files.

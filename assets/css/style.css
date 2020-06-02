@@ -1,0 +1,152 @@
+*{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+a{
+    display: inline-block;
+    padding-left: 10px;
+    line-height: 10px;
+    color: #999;
+    border-left: 1px solid gray;
+}
+
+a:first-child {
+    border-left: 0 none;
+}
+
+#bigName{
+    float: left;
+    background-color: #4aaaa5;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#contact,#portfolio,#about{
+    margin: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    clear: both;
+    padding-bottom: 20px;
+    border-bottom: solid 3px #cccccc;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#outer{
+    background-color: #dddddd;
+    padding-top: 40px;
+    padding-bottom: 100%;
+}
+
+#mainContent{
+    background-color: white;
+    max-width: 920px;
+    margin: auto;
+    padding: 20px;
+}
+
+p{
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+body{
+    margin: auto;
+}
+
+.wesPhoto{
+    float: left;
+    padding-right: 15px;
+    border-radius: 50%;
+    max-width: 420px;
+    height: auto;
+}
+
+footer{
+    background-color: #666666;
+    position: sticky;
+    bottom: 0;
+    width: 100%; 
+    padding-top: 2rem;
+    text-align: center; 
+    color: white;
+    border-top: solid 8px #4aaaa5;
+}
+
+.submitBtn{
+    background-color: #4aaaa5;
+    width: 100px;
+    height: 33px;
+    font-size: 15px;
+    color: white;
+}
+
+.inputLabel{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.textInput{
+    width: 100%;
+    height: 2em;
+}
+
+.messageInput{
+    width: 100%;
+    height: 200px;
+}
+
+.ACU{
+    width: 250px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.FO76{
+    width: 250px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.NMS{
+    width: 250px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.text{
+    clear:both;
+    margin-top: 3em;
+}
+
+@media screen and (max-width: 768px) {
+#bigName{
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+.navi{
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+  }
