@@ -1,0 +1,15 @@
+.NavBar {
+  background-color: #dde0e0;
+}
+
+.navi {
+  margin: 0px 5px;
+  color: black;
+}
+
+a.disabled {
+  margin: 0px 5px;
+  pointer-events: none;
+  cursor: default;
+  color: rgb(rgb(19, 99, 204));
+}
