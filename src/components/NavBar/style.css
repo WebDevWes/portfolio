@@ -1,0 +1,22 @@
+.NavBar {
+  background-color: #dde0e0;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.navi {
+  margin: 0px 5px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+
+a.disabled {
+  margin: 0px 5px;
+  pointer-events: none;
+  cursor: default;
+  color: rgb(rgb(19, 99, 204));
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}

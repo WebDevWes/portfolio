@@ -1,14 +1,15 @@
 import React from "react";
+import "./style.css";
 
 export default function NavBar() {
   return (
     <nav className="NavBar">
-      <a href="foo" className="disabled appleFont">
+      <a href="foo" className="disabled">
         <strong>WebDevWes</strong>
       </a>
-      <a className="navi appleFont" href="/">About</a>
-      <a className="navi appleFont" href="/project">Projects</a>
-      <a className="navi appleFont" href="/contact">Contact</a>
+      <a className="navi" href="/">About</a>
+      <a className="navi" href="/project">Projects</a>
+      <a className="navi" href="/contact">Contact</a>
     </nav>
   );
 }
