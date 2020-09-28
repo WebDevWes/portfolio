@@ -12,7 +12,7 @@ export default function Footer() {
       aria-expanded="true"
       aria-controls="collapseOne"
     >
-      <div className="Footer">
+      <div className="Footer collapse show">
         Copyright &#169; {currentYear}, WebDevWes. All rights reserved.
       </div>
       <input className="Footer-button" type="button" value="=" />
