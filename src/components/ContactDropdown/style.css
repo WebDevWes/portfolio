@@ -7,3 +7,8 @@
   border: none;
   background-color: #dde0e0;
 }
+
+.ContactDropdown:focus {
+  background-color: #333399;
+  color: white;
+}

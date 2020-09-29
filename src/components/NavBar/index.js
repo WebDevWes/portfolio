@@ -4,12 +4,13 @@ import NavBarDropdown from "../NavBarDropdown";
 import DropdownItem from "../DropdownItem";
 import ContactDropdown from "../ContactDropdown";
 import ContactForm from "../ContactForm";
+import Time from "../Time";
 
 export default function NavBar() {
   return (
     <nav className="NavBar">
       <a href="foo" className="logo">
-        <strong>WebDevWes</strong>
+        <strong>Logo</strong>
       </a>
       <NavBarDropdown value="About Me">
         <DropdownItem value="Information" />
@@ -18,8 +19,12 @@ export default function NavBar() {
         <DropdownItem value="Password Generator" />
       </NavBarDropdown>
       <ContactDropdown value="Contact Me">
-        <ContactForm/>
+        <ContactForm />
       </ContactDropdown>
+      <a href="foo" className="WebDevWes">
+        <strong>WebDevWes</strong>
+      </a>
+      <Time />
     </nav>
   );
 }
