@@ -18,7 +18,7 @@ export default function NavBar() {
         <DropdownItem value="Password Generator" />
       </NavBarDropdown>
       <ContactDropdown value="Contact Me">
-        <ContactForm value="Password Generator" />
+        <ContactForm/>
       </ContactDropdown>
     </nav>
   );
