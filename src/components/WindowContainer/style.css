@@ -1,0 +1,9 @@
+.WindowContainer {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: white;
+  border-top: #d9d9d9 solid 26px;
+  border-bottom: #d9d9d9 solid 6px;
+  border-right: #d9d9d9 solid 6px;
+  border-left: #d9d9d9 solid 6px;
+}
