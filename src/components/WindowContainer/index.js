@@ -1,11 +1,12 @@
 import React from 'react';
+import { Rnd } from "react-rnd";
 import "./style.css";
 
-export default function WindowContainer() {
+export default function WindowContainer(props) {
   return (
-    <div className="WindowContainer">
-      
-    </div>
+    <Rnd className="WindowContainer">
+      <div className="TitleBar">{props.name}</div>
+    </Rnd>
   )
 }
 
