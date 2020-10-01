@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "./style.css";
 
 export default function ContactForm() {
@@ -10,11 +11,24 @@ export default function ContactForm() {
     event.preventDefault();
 
     if (!name && !email) {
-      console.log("Name nad email are required!");
+      alert("Name nad email are required!");
     } else if (name && email) {
-      console.log(
-        `Contact name is ${name}, email is ${email}, and his/her message is ${message}`
-      );
+      emailjs
+        .sendForm(
+          "service_us9hkka",
+          "template_45cnunm",
+          event.target,
+          "user_aoSDneBYjn25nZipmAnsy"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            alert("Email has been sent to Wesley")
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
       setName("");
       setEmail("");
       setMessage("");
