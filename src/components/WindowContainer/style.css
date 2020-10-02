@@ -9,7 +9,25 @@
 
 .TitleBar {
   top: 0;
-  width: auto;
+  width: 100%;
   height: 26px;
   background-color: #d9d9d9;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+
+.DeleteButton {
+  float: left;
+  margin-top: 4px;
+  height: 18px;
+  width: 18px;
+}
+
+.CollapseButton {
+  float: right;
+  margin-top: 4px;
+  height: 18px;
+  width: 18px;
 }

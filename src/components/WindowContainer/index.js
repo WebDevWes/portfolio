@@ -1,12 +1,19 @@
-import React from 'react';
+import React from "react";
 import { Rnd } from "react-rnd";
 import "./style.css";
 
 export default function WindowContainer(props) {
-  return (
-    <Rnd className="WindowContainer">
-      <div className="TitleBar">{props.name}</div>
-    </Rnd>
-  )
-}
+  const handleDelete = () => {
+    console.log("Delete Button");
+  };
 
+  return (
+    <Rnd className="WindowContainer" dragHandleClassName="TitleBar">
+      <div className="TitleBar">
+        <button type="button" className="DeleteButton" onClick={handleDelete} />
+        {props.name}
+      </div>
+      {props.children}
+    </Rnd>
+  );
+}
