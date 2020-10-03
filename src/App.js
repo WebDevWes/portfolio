@@ -1,22 +1,19 @@
 import React from "react";
-import Navbar from "./components/NavBar";
-import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper";
-import WindowContainer from "./components/WindowContainer";
-import { Information } from "./utils/Info";
-
-const openWindow = () => {
-  console.log("open window");
-};
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Portfolio from "./pages/Portfolio";
+import OSexp from "./pages/OSexp";
 
 function App() {
   return (
     <div
       style={{ backgroundColor: "#66a", minHeight: "100vh", height: "100%" }}
     >
-      <Navbar onClick={openWindow} />
-      <Wrapper><WindowContainer>{Information}</WindowContainer></Wrapper>
-      <Footer />
+      <Router>
+        <Switch>
+          <Route path="/" component={Portfolio} exact />
+          <Route path="/OSexp" component={OSexp} exact />
+        </Switch>
+      </Router>
     </div>
   );
 }
