@@ -1,3 +1,11 @@
+.sidebar-background {
+    background-color: #dde0e0;
+}
+
+.font-black {
+    color: black !important;
+}
+
 .fixed-top {
   position: fixed;
   top: 0;

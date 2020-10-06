@@ -2,24 +2,25 @@ import React from "react";
 import "./style.css";
 
 export default function Sidebar() {
+
   return (
     <div>
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+        className="navbar navbar-expand-lg navbar-light sidebar-background fixed-top"
         id="sideNav"
       >
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <span class="d-block d-lg-none">Wesley Tran</span>
-          <span class="d-none d-lg-block">
+        <a className="navbar-brand js-scroll-trigger" href="#page-top">
+          <span className="d-block d-lg-none font-black">Wesley Tran</span>
+          <span className="d-none d-lg-block">
             <img
-              class="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src="assets/img/profile.jpg"
+              className="img-fluid img-profile rounded-circle mx-auto mb-2"
+              src= {process.env.PUBLIC_URL+ "/images/profilePic.jpg"}
               alt=""
             />
           </span>
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -27,27 +28,27 @@ export default function Sidebar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger font-black" href="#about">
                 About
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#interest">
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger font-black" href="#interest">
                 Interest
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#skills">
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger font-black" href="#skills">
                 Skills
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects">
+            <li className="nav-item">
+              <a className="nav-link js-scroll-trigger font-black" href="#projects">
                 Projects
               </a>
             </li>
