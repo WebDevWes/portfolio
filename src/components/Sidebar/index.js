@@ -4,7 +4,6 @@ import "./style.css";
 export default function Sidebar() {
 
   return (
-    <div>
       <nav
         className="navbar navbar-expand-lg navbar-light sidebar-background fixed-top"
         id="sideNav"
@@ -55,6 +54,5 @@ export default function Sidebar() {
           </ul>
         </div>
       </nav>
-    </div>
   );
 }
