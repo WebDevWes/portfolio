@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Sidebar from "../components/Sidebar";
 
 export default function Portfolio() {
     return (
         <div>
-            Portfolio Page
+            <Sidebar />
         </div>
     )
 }
