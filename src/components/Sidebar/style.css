@@ -6,6 +6,10 @@
     color: black !important;
 }
 
+.font-black:hover {
+    color: grey !important;
+}
+
 .fixed-top {
   position: fixed;
   top: 0;

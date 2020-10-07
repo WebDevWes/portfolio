@@ -1,14 +1,12 @@
-import React from 'react';
-import Wrapper from "../components/Wrapper";
+import React from "react";
 import Sidebar from "../components/Sidebar";
+import ProfileBody from "../components/ProfileBody";
 
 export default function Portfolio() {
-    return (
-        <div>
-            <Sidebar />
-            <Wrapper>
-
-            </Wrapper>
-        </div>
-    )
+  return (
+    <div style={{ backgroundColor: "#ac9ecc" }}>
+      <Sidebar />
+      <ProfileBody />
+    </div>
+  );
 }

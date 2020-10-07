@@ -11,7 +11,9 @@ const openWindow = () => {
 
 function OSexp() {
   return (
-    <div>
+    <div
+      style={{ backgroundColor: "#66a", minHeight: "100vh", height: "100%" }}
+    >
       <Navbar onClick={openWindow} />
       <Wrapper>
         <WindowContainer>{Information}</WindowContainer>

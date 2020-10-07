@@ -2,13 +2,16 @@ import React from "react";
 import "./style.css";
 
 export default function Sidebar() {
+  const toggleCollapse = () => {
+    document.getElementById("navbarSupportedContent").classList.remove("show");
+  }
 
   return (
       <nav
         className="navbar navbar-expand-lg navbar-light sidebar-background fixed-top"
         id="sideNav"
       >
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
+        <a className="navbar-brand" href="#page-top">
           <span className="d-block d-lg-none font-black">Wesley Tran</span>
           <span className="d-none d-lg-block">
             <img
@@ -32,22 +35,27 @@ export default function Sidebar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger font-black" href="#about">
+              <a className="nav-link font-black" href="#about" onClick={toggleCollapse}>
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger font-black" href="#interest">
+              <a className="nav-link font-black" href="#interest" onClick={toggleCollapse}>
                 Interest
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger font-black" href="#skills">
+              <a className="nav-link font-black" href="#skills" onClick={toggleCollapse}>
                 Skills
               </a>
             </li>
+            {/* <li className="nav-item">
+              <a className="nav-link font-black" href="#certification" onClick={toggleCollapse}>
+                Certifications
+              </a>
+            </li> */}
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger font-black" href="#projects">
+              <a className="nav-link font-black" href="#projects" onClick={toggleCollapse}>
                 Projects
               </a>
             </li>

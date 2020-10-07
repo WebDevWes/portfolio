@@ -5,9 +5,7 @@ import OSexp from "./pages/OSexp";
 
 function App() {
   return (
-    <div
-      style={{ backgroundColor: "#66a", minHeight: "100vh", height: "100%" }}
-    >
+    <div>
       <Router>
         <Switch>
           <Route path="/" component={Portfolio} exact />
