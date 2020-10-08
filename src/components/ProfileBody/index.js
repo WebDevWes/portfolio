@@ -14,7 +14,7 @@ export default function ProfileBody() {
             <span className="text-secondary">Tran</span>
           </h1>
           <div className="subheading mb-5">
-            Hayward, CA 94541 · (510) 918-2481 ·
+            Hayward, CA 94541 · (510) 825-7359 ·
             <a href="mailto:WebDevWes89@gmail.com">WebDevWes89@gmail.com</a>
           </div>
           <p className="lead mb-5">
@@ -162,13 +162,14 @@ export default function ProfileBody() {
           <h2 className="mb-5">Projects</h2>
           <div className="card-container">
             {projects.map(
-              ({ id, title, src, deployed_link, repo_link }) => (
+              ({ id, title, src, description, deployed_link, repo_link }) => (
                 <ProjectCard
                 key={id}
                 logo={src}
                 title={title}
                 deploy={deployed_link}
                 repo={repo_link}
+                description={description}
               />
               )
             )}

@@ -11,16 +11,16 @@ export default function Sidebar() {
       className="navbar navbar-expand-lg navbar-light sidebar-background fixed-top"
       id="sideNav"
     >
-      <a className="navbar-brand" href="#page-top">
+      <div className="navbar-brand">
         <span className="d-block d-lg-none font-black">Wesley Tran</span>
         <span className="d-none d-lg-block">
           <img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
             src={process.env.PUBLIC_URL + "/images/profilePic.jpg"}
-            alt=""
+            alt="Profile"
           />
         </span>
-      </a>
+      </div>
       <button
         className="navbar-toggler"
         type="button"
