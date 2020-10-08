@@ -12,7 +12,7 @@ export default function Sidebar() {
       id="sideNav"
     >
       <div className="navbar-brand">
-        <span className="d-block d-lg-none font-black">Wesley Tran</span>
+        <span className="d-block d-lg-none font-black">WebDevWes</span>
         <span className="d-none d-lg-block">
           <img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
