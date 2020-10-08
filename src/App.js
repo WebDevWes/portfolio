@@ -8,7 +8,7 @@ function App() {
     <div>
       <Router>
         <Switch>
-          <Route path="/portfolio" component={Portfolio} exact />
+          <Route path="/" component={Portfolio} exact />
           <Route path="/OSexp" component={OSexp} exact />
         </Switch>
       </Router>
