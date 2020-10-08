@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import SimpleContactForm from "../SimpleContactForm";
 
 export default function ProfileBody() {
   return (
@@ -165,6 +166,13 @@ export default function ProfileBody() {
               Full Stack Web Developer Certification from UC Berekely Ext.
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section className="bodySection" id="contact">
+        <div className="bodySection-content">
+          <h2 className="mb-5">Contact Me</h2>
+          <SimpleContactForm />
         </div>
       </section>
     </div>

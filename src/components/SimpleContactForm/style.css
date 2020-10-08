@@ -1,0 +1,25 @@
+.SimpleContactFormInput {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 65vw;
+}
+
+.SimpleContactFormTextArea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 85vw;
+}
+
+@media (min-width: 992px) {
+  .SimpleContactFormInput {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20vw;
+  }
+
+  .SimpleContactFormTextArea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 45vw;
+  }
+}

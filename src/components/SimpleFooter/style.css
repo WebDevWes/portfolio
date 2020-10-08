@@ -1,0 +1,12 @@
+@media (min-width: 992px) {
+  .SimpleFooter {
+    margin-left: 272px;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.SimpleFooter {
+    padding-left: 2rem; 
+    font-size: small;
+}
