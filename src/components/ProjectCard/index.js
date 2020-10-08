@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 
 export default function ProjectCard(props) {
-  console.log("props", props);
   return (
     <div className="card-body col-sm-4">
       <a href={props.deploy} target="_blank" rel="noopener noreferrer">

@@ -5,7 +5,6 @@ import ProjectCard from "../ProjectCard";
 import projects from "../../utils/projects";
 
 export default function ProfileBody() {
-  console.log(projects);
   return (
     <div className="container-fluid ProfileBody">
       <section className="bodySection" id="about">

@@ -1,4 +1,4 @@
-.card-body {
+/* .card-body {
   border: black 3px dashed;
   border-radius: 20px;
   margin: 5px;
@@ -6,13 +6,16 @@
 
 .card-body:hover {
   padding: 23px;
-}
+} */
 
 .logo {
   height: auto;
-  width: 20px;
+  width: 50px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 992px) {
@@ -21,6 +24,10 @@
     width: 120px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+  }
+  .logo:hover {
+    width: 140px;
+    height: auto;
   }
 }
 
