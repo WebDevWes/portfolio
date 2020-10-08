@@ -11,6 +11,12 @@
 }
 
 @media (min-width: 992px) {
+  .SimpleContactForm {
+    padding: 2rem;
+    border: black solid 3px;
+    border-radius: 30px;
+  }
+
   .SimpleContactFormInput {
     margin-top: 10px;
     margin-bottom: 10px;

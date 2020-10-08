@@ -1,8 +1,11 @@
 import React from "react";
 import "./style.css";
 import SimpleContactForm from "../SimpleContactForm";
+import ProjectCard from "../ProjectCard";
+import projects from "../../utils/projects";
 
 export default function ProfileBody() {
+  console.log(projects);
   return (
     <div className="container-fluid ProfileBody">
       <section className="bodySection" id="about">
@@ -127,11 +130,11 @@ export default function ProfileBody() {
           </div>
           <ul className="list-inline techIcons">
             <li className="list-inline-item">
-            <img
-                  className="typescriptIcon"
-                  src={process.env.PUBLIC_URL + "/images/typescript.png"}
-                  alt="MongoDB"
-                />
+              <img
+                className="typescriptIcon"
+                src={process.env.PUBLIC_URL + "/images/typescript.png"}
+                alt="MongoDB"
+              />
             </li>
             <li className="list-inline-item">
               <i className="fab fa-python"></i>
@@ -158,14 +161,19 @@ export default function ProfileBody() {
       <section className="bodySection" id="projects">
         <div className="bodySection-content">
           <h2 className="mb-5">Projects</h2>
-          <ul className="fa-ul mb-0">
-            <li>
-              <span className="fa-li">
-                <i className="fas fa-check text-warning"></i>
-              </span>
-              Full Stack Web Developer Certification from UC Berekely Ext.
-            </li>
-          </ul>
+          <div className="card-container">
+            {projects.map(
+              ({ id, title, src, deployed_link, repo_link }) => (
+                <ProjectCard
+                key={id}
+                logo={src}
+                title={title}
+                deploy={deployed_link}
+                repo={repo_link}
+              />
+              )
+            )}
+          </div>
         </div>
       </section>
 
