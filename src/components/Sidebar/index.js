@@ -2,9 +2,12 @@ import React from "react";
 import "./style.css";
 
 export default function Sidebar() {
-  const toggleCollapse = () => {
+  const toggleCollapse = (event) => {
+    const element = document.querySelector(event.target.getAttribute("goTo"));
+
     document.getElementById("navbarSupportedContent").classList.remove("show");
-  }
+    element.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <nav
@@ -37,7 +40,7 @@ export default function Sidebar() {
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              href="#about"
+              goTo="#about"
               onClick={toggleCollapse}
             >
               About
@@ -46,7 +49,7 @@ export default function Sidebar() {
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              href="#interest"
+              goTo="#interest"
               onClick={toggleCollapse}
             >
               Interest
@@ -55,21 +58,21 @@ export default function Sidebar() {
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              href="#skills"
+              goTo="#skills"
               onClick={toggleCollapse}
             >
               Skills
             </a>
           </li>
           {/* <li className="nav-item">
-              <a className="nav-link font-black" href="#certification" onClick={toggleCollapse}>
+              <a className="nav-link font-black" goTo="#certification" onClick={toggleCollapse}>
                 Certifications
               </a>
             </li> */}
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              href="#projects"
+              goTo="#projects"
               onClick={toggleCollapse}
             >
               Projects
@@ -78,7 +81,7 @@ export default function Sidebar() {
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              href="#contact"
+              goTo="#contact"
               onClick={toggleCollapse}
             >
               Contact Me

@@ -55,14 +55,14 @@ export default function ProfileBody() {
       <section className="bodySection" id="interest">
         <div className="bodySection-content">
           <h2 className="mb-5">Interests</h2>
-          <p>
+          <p className="lead mb-5">
             At the risk of sounding generic, I do love food. The only reason why
             I bother to weight lift is to gain muscle mass for the sole purpose
             of the higher calorie consumption that I'm allowed. Even during
             hikes, I place more emphasis on the snacks that I bring over the
             activity itself.
           </p>
-          <p className="mb-0">
+          <p className="lead mb-5">
             My other interest lies in PC gaming and all the technologies that
             follows it. I started building my first PC in pursuit of gaming, and
             this has led me to tinker with arduino units and has now led me to
@@ -164,13 +164,13 @@ export default function ProfileBody() {
             {projects.map(
               ({ id, title, src, description, deployed_link, repo_link }) => (
                 <ProjectCard
-                key={id}
-                logo={src}
-                title={title}
-                deploy={deployed_link}
-                repo={repo_link}
-                description={description}
-              />
+                  key={id}
+                  logo={src}
+                  title={title}
+                  deploy={deployed_link}
+                  repo={repo_link}
+                  description={description}
+                />
               )
             )}
           </div>
