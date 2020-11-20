@@ -18,10 +18,16 @@ export default function ProfileBody() {
             <a href="mailto:WebDevWes89@gmail.com">WebDevWes89@gmail.com</a>
           </div>
           <p className="lead mb-5">
-            I'm a new and upcoming Full-Stack Web Developer, language of choice
-            is Javascript and I am currently picking up Typescript. I have
-            always loved to tinker with things since a young age and that has
-            led me towards coding.
+            New and passionate Full Stack Web Developer with certification from
+            UC Berkeley Coding Bootcamp; skill sets include Javascript, CSS,
+            ReactJS for the front-end, NodeJS, Express, MongoDB, and MySQL for
+            the back-end. Created my first MERN app developing a job search app
+            that takes into account the cost of living in a given area, with a
+            team of four. I’m a quick learner and very easy to get along with in
+            a team environment. I have worked with a SQL database at my job as a
+            distribution supervisor for quite a couple years now and am
+            currently leveraging what I have learned as a Web Developer in order
+            to automate a couple of daily tasks.
           </p>
           <div className="social-icons">
             <a
