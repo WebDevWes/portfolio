@@ -40,7 +40,8 @@ export default function Sidebar() {
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              goTo="#about"
+              goto="#about"
+              href="/#"
               onClick={toggleCollapse}
             >
               About
@@ -49,7 +50,8 @@ export default function Sidebar() {
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              goTo="#interest"
+              goto="#interest"
+              href="/#"
               onClick={toggleCollapse}
             >
               Interest
@@ -58,7 +60,8 @@ export default function Sidebar() {
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              goTo="#skills"
+              goto="#skills"
+              href="/#"
               onClick={toggleCollapse}
             >
               Skills
@@ -72,7 +75,8 @@ export default function Sidebar() {
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              goTo="#projects"
+              goto="#projects"
+              href="/#"
               onClick={toggleCollapse}
             >
               Projects
@@ -81,7 +85,8 @@ export default function Sidebar() {
           <li className="nav-item">
             <a
               className="nav-link font-black"
-              goTo="#contact"
+              goto="#contact"
+              href="/#"
               onClick={toggleCollapse}
             >
               Contact Me
