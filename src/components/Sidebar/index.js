@@ -41,7 +41,7 @@ export default function Sidebar() {
             <a
               className="nav-link font-black"
               goto="#about"
-              href="/#"
+              href="javascript:;"
               onClick={toggleCollapse}
             >
               About
@@ -51,7 +51,7 @@ export default function Sidebar() {
             <a
               className="nav-link font-black"
               goto="#interest"
-              href="/#"
+              href="javascript:;"
               onClick={toggleCollapse}
             >
               Interest
@@ -61,7 +61,7 @@ export default function Sidebar() {
             <a
               className="nav-link font-black"
               goto="#skills"
-              href="/#"
+              href="javascript:;"
               onClick={toggleCollapse}
             >
               Skills
@@ -76,7 +76,7 @@ export default function Sidebar() {
             <a
               className="nav-link font-black"
               goto="#projects"
-              href="/#"
+              href="javascript:;"
               onClick={toggleCollapse}
             >
               Projects
@@ -86,7 +86,7 @@ export default function Sidebar() {
             <a
               className="nav-link font-black"
               goto="#contact"
-              href="/#"
+              href="javascript:;"
               onClick={toggleCollapse}
             >
               Contact Me
