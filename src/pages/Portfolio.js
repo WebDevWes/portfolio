@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Sidebar from "../components/Sidebar";
 import ProfileBody from "../components/ProfileBody";
 import SimpleFooter from "../components/SimpleFooter";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Portfolio() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div
       style={{

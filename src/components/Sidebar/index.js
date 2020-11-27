@@ -38,34 +38,31 @@ export default function Sidebar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a
+            <p
               className="nav-link font-black"
               goto="#about"
-              href="javascript:;"
               onClick={toggleCollapse}
             >
               About
-            </a>
+            </p>
           </li>
           <li className="nav-item">
-            <a
+            <p
               className="nav-link font-black"
               goto="#interest"
-              href="javascript:;"
               onClick={toggleCollapse}
             >
               Interest
-            </a>
+            </p>
           </li>
           <li className="nav-item">
-            <a
+            <p
               className="nav-link font-black"
               goto="#skills"
-              href="javascript:;"
               onClick={toggleCollapse}
             >
               Skills
-            </a>
+            </p>
           </li>
           {/* <li className="nav-item">
               <a className="nav-link font-black" goTo="#certification" onClick={toggleCollapse}>
@@ -73,24 +70,22 @@ export default function Sidebar() {
               </a>
             </li> */}
           <li className="nav-item">
-            <a
+            <p
               className="nav-link font-black"
               goto="#projects"
-              href="javascript:;"
               onClick={toggleCollapse}
             >
               Projects
-            </a>
+            </p>
           </li>
           <li className="nav-item">
-            <a
+            <p
               className="nav-link font-black"
               goto="#contact"
-              href="javascript:;"
               onClick={toggleCollapse}
             >
               Contact Me
-            </a>
+            </p>
           </li>
         </ul>
       </div>

@@ -8,7 +8,12 @@ export default function ProfileBody() {
   return (
     <div className="container-fluid ProfileBody">
       <section className="bodySection" id="about">
-        <div className="bodySection-content">
+        <div
+          className="bodySection-content"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
           <h1 className="mb-0">
             Wesley
             <span className="text-secondary">Tran</span>
@@ -59,7 +64,12 @@ export default function ProfileBody() {
       <hr className="m-0" />
 
       <section className="bodySection" id="interest">
-        <div className="bodySection-content">
+        <div
+          className="bodySection-content"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
           <h2 className="mb-5">Interests</h2>
           <p className="lead mb-5">
             At the risk of sounding generic, I do love food. The only reason why
@@ -79,7 +89,12 @@ export default function ProfileBody() {
       <hr className="m-0" />
 
       <section className="bodySection" id="skills">
-        <div className="bodySectionContent">
+        <div
+          className="bodySectionContent"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
           <h2 className="mb-5">Tech Stack</h2>
           <div className="subheading mb-3">Programming Languages & Tools</div>
           <ul className="list-inline techIcons">
@@ -164,7 +179,12 @@ export default function ProfileBody() {
       </section> */}
 
       <section className="bodySection" id="projects">
-        <div className="bodySection-content">
+        <div
+          className="bodySection-content"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
           <h2 className="mb-5">Projects</h2>
           <div className="card-container">
             {projects.map(
@@ -184,7 +204,12 @@ export default function ProfileBody() {
       </section>
 
       <section className="bodySection" id="contact">
-        <div className="bodySection-content">
+        <div
+          className="bodySection-content"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
           <h2 className="mb-5">Contact Me</h2>
           <SimpleContactForm />
         </div>
