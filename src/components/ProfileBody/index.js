@@ -12,7 +12,7 @@ export default function ProfileBody() {
           className="bodySection-content"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <h1 className="mb-0">
             Wesley
@@ -68,7 +68,7 @@ export default function ProfileBody() {
           className="bodySection-content"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <h2 className="mb-5">Interests</h2>
           <p className="lead mb-5">
@@ -93,7 +93,7 @@ export default function ProfileBody() {
           className="bodySectionContent"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <h2 className="mb-5">Tech Stack</h2>
           <div className="subheading mb-3">Programming Languages & Tools</div>
@@ -183,7 +183,7 @@ export default function ProfileBody() {
           className="bodySection-content"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <h2 className="mb-5">Projects</h2>
           <div className="card-container">
@@ -208,7 +208,7 @@ export default function ProfileBody() {
           className="bodySection-content"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <h2 className="mb-5">Contact Me</h2>
           <SimpleContactForm />
