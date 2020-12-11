@@ -187,18 +187,20 @@ export default function ProfileBody() {
         >
           <h2 className="mb-5">Projects</h2>
           <div className="card-container">
-            {projects.map(
-              ({ id, title, src, description, deployed_link, repo_link }) => (
-                <ProjectCard
-                  key={id}
-                  logo={src}
-                  title={title}
-                  deploy={deployed_link}
-                  repo={repo_link}
-                  description={description}
-                />
-              )
-            )}
+            {projects
+              .reverse()
+              .map(
+                ({ id, title, src, description, deployed_link, repo_link }) => (
+                  <ProjectCard
+                    key={id}
+                    logo={src}
+                    title={title}
+                    deploy={deployed_link}
+                    repo={repo_link}
+                    description={description}
+                  />
+                )
+              )}
           </div>
         </div>
       </section>
