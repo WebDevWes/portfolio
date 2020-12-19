@@ -32,7 +32,7 @@ const projects = [
     src: process.env.PUBLIC_URL + "/images/LeagueStatsSS.png",
     description:
       "Play League of Legends? Keep track of your win/loss, masteries and more with League Stats",
-    //deployed_link: "javascript: void(0)",
+    deployed_link: "https://league-statistic.herokuapp.com/",
     repo_link: "https://github.com/dspark410/league-stats",
   },
 ];
