@@ -23,7 +23,7 @@ export default function ContactForm() {
         .then(
           (result) => {
             console.log(result.text);
-            alert("Email has been sent to Wesley")
+            alert("Email has been sent to Wesley");
           },
           (error) => {
             console.log(error.text);

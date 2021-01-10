@@ -9,7 +9,8 @@
 }
 
 .card-body:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  transition: transform 0.1s ease-in-out;
 }
 
 .imageContainer {
@@ -29,6 +30,9 @@ img.logo {
     object-fit: cover;
     height: 120px;
     width: auto;
+  }
+  .card-body {
+    max-width: 25%;
   }
 }
 

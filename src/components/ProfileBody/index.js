@@ -23,13 +23,14 @@ export default function ProfileBody() {
             <a href="mailto:WebDevWes89@gmail.com">WebDevWes89@gmail.com</a>
           </div>
           <p className="lead mb-5">
-            New and passionate Full Stack Web Developer with certification from
-            UC Berkeley Coding Bootcamp; skill sets include Javascript, CSS,
-            ReactJS for the front-end, NodeJS, Express, MongoDB, and MySQL for
-            the back-end. Created my first MERN app developing a job search app
-            that takes into account the cost of living in a given area, with a
-            team of four. I’m a quick learner and very easy to get along with in
-            a team environment. I have worked with a SQL database at my job as a
+            New and passionate Full Stack Web Developer working part-time as a
+            Teaching Assistant for a Full Stack Web Development Bootcamp at UC
+            Berkeley Ext; skill sets include Javascript, CSS, ReactJS for the
+            front-end, NodeJS, Express, MongoDB, and MySQL for the back-end.
+            Created my first MERN app developing a job search app that takes
+            into account the cost of living in a given area, with a team of
+            four. I’m a quick learner and very easy to get along with in a team
+            environment. I have worked with a SQL database at my job as a
             distribution supervisor for quite a couple years now and am
             currently leveraging what I have learned as a Web Developer in order
             to automate a couple of daily tasks.
